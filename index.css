@@ -1,0 +1,92 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#f7f9fc;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading */
+h1 {
+    color: aquamarine;
+    margin-top: 30px;
+    text-shadow: 1px 1px 5px #000;
+}
+
+/* Input and Button container */
+div {
+    margin: 20px 0;
+}
+
+/* Input box */
+#addtask {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Add task button */
+#submit {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: aquamarine;
+    color: #1e1e2f;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #76ffe0;
+}
+
+/* Error message */
+#errormsg {
+    margin-top: 5px;
+    font-size: 14px;
+    color: red;
+}
+
+/* To-Do list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+li {
+    background-color: #2e2e44;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Completed list heading */
+h3 {
+    margin-top: 30px;
+    color: #00ffcc;
+}
+
+/* Completed tasks */
+#Donelist li {
+    background-color: #444466;
+    text-decoration: line-through;
+    color: #aaaaaa;
+}
+
+/* Optional: add a hover effect for list items */
+li:hover {
+    background-color: #3a3a5a;
+}
