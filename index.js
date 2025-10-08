@@ -10,7 +10,7 @@ function addtask(){
         return;
     }
     diverror.innerText="";
-    console.log(addtext.value);  // to collect the data from the input to use the .value otherwise use the .textContent
+    console.log(addtext.value);
         list.push(addtext.value);
         todolist.innerHTML+=`<li id="listed"><button onclick="complete(this)">${addtext.value}</button></li>`;
         addtext.value='';
@@ -21,3 +21,4 @@ function complete(id){
     id.parentElement.remove();
     }
      
+
